@@ -7,17 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace WAPP_Assignment
 {
-    public partial class MasterPage : System.Web.UI.MasterPage
+    public partial class ClubMeeting : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
-        }
-
-        protected void Logout_Click(object sender, EventArgs e)
-        {
-            Session.Abandon();
-            Response.Redirect("Login.aspx");
         }
     }
 }
