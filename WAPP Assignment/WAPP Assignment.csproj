@@ -116,6 +116,7 @@
     <Content Include="Registration2.aspx" />
     <Content Include="Search.aspx" />
     <Content Include="SearchProduct.aspx" />
+    <Content Include="ViewAll.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -206,6 +207,13 @@
     </Compile>
     <Compile Include="SearchProduct.aspx.designer.cs">
       <DependentUpon>SearchProduct.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewAll.aspx.cs">
+      <DependentUpon>ViewAll.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewAll.aspx.designer.cs">
+      <DependentUpon>ViewAll.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup />

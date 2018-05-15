@@ -19,7 +19,7 @@
     <!-- Custom styles for this template -->
     <style>
         body {
-            padding-top: 54px;
+            padding-top: 68px;
             background-image: url('../images/background.jpg');
             background-position: top;
             background-size: cover;
@@ -27,7 +27,7 @@
 
         @media (min-width: 992px) {
             body {
-                padding-top: 56px;
+                padding-top: 70px;
             }
         }
 
