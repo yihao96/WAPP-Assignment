@@ -3,7 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
     <h1>View All</h1>
-    <table class="w-100" border="1" style="background-color: #ffffcc">
+    <table class="w-100" border="1" style="background-color: #7FFFD4">
         <tr style="font-weight: bold;">
             <td>Username</td>
             <td>Email</td>

@@ -9,7 +9,7 @@
         <asp:Label ID="Label1" runat="server"></asp:Label>
     </p>
     <p>
-        <asp:Button ID="btnSearch" runat="server" OnClick="btnSearch_Click" Text="Search" />
+        <asp:Button ID="btnSearch" class="btn btn-primary" runat="server" OnClick="btnSearch_Click" Text="Search" />
     </p>
     <asp:Panel ID="Panel1" runat="server">
         <table class="w-100">

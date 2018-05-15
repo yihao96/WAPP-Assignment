@@ -51,6 +51,9 @@
         td {
             padding: 5px;
         }
+        .fixed-width-td {
+            width: 30%;
+        }
     </style>
 
 </head>
@@ -121,7 +124,7 @@
                             else if (Session["uType"].Equals("Admin") || Session["uType"].Equals("Member"))
                             { %>
                         <li class="nav-item">
-                            <a class="nav-link" href="#" runat="server" onserverclick="Logout_Click">LogOut</a>
+                            <a class="nav-link" href="#" runat="server" onserverclick="Logout_Click">Log out</a>
                         </li>
                         <%} %>
                     </ul>

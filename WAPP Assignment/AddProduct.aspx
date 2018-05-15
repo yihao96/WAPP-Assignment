@@ -36,8 +36,8 @@
                 <asp:Label ID="lblMessage" runat="server"></asp:Label>
             </td>
             <td>
-                <asp:Button ID="btnAdd" runat="server" OnClick="btnAdd_Click" Text="Add" />
-                <asp:Button ID="btnReset" runat="server" OnClick="btnReset_Click" Text="Reset" />
+                <asp:Button ID="btnAdd" class="btn btn-primary" runat="server" OnClick="btnAdd_Click" Text="Add" />
+                <asp:Button ID="btnReset" class="btn btn-secondary" runat="server" OnClick="btnReset_Click" Text="Reset" />
             </td>
         </tr>
     </table>

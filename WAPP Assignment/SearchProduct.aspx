@@ -13,8 +13,8 @@
         <tr>
             <td style="width: 251px">&nbsp;</td>
             <td>
-                <asp:Button ID="btnSearch" runat="server" OnClick="btnSearch_Click" Text="Search" />
-                <asp:Button ID="btnReset" runat="server" OnClick="btnReset_Click" Text="Reset" />
+                <asp:Button ID="btnSearch" class="btn btn-primary" runat="server" OnClick="btnSearch_Click" Text="Search" />
+                <asp:Button ID="btnReset" class="btn btn-secondary" runat="server" OnClick="btnReset_Click" Text="Reset" />
             </td>
         </tr>
     </table>

@@ -5,23 +5,23 @@
     <h1>LOGIN</h1>
     <table class="w-100">
         <tr>
-            <td style="height: 32px">Username:</td>
+            <td style="height: 32px" class="fixed-width-td">Username:</td>
             <td style="height: 32px">
                 <asp:TextBox ID="txtUsername" runat="server"></asp:TextBox>
             </td>
         </tr>
         <tr>
-            <td style="height: 36px">Password:</td>
+            <td style="height: 36px" class="fixed-width-td">Password:</td>
             <td style="height: 36px">
                 <asp:TextBox ID="txtPassword" runat="server" TextMode="Password"></asp:TextBox>
             </td>
         </tr>
         <tr>
-            <td class="text-right">
+            <td class="text-right fixed-width-td">
                 <asp:Label ID="lblMessage" runat="server"></asp:Label>
-                <asp:Button ID="btnLogin" class="btn btn-primary" runat="server" OnClick="btnLogin_Click" Text="Login" />
             </td>
             <td>
+                <asp:Button ID="btnLogin" class="btn btn-primary" runat="server" OnClick="btnLogin_Click" Text="Login" />
                 <asp:Button ID="btnReset" class="btn btn-secondary" runat="server" OnClick="btnReset_Click" Text="Reset" />
                 <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click">Forgot Password?</asp:LinkButton>
             </td>
