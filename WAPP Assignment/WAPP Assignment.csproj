@@ -66,6 +66,34 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\myDB.mdf" />
+    <Content Include="App_Data\myDB_log.ldf">
+      <DependentUpon>myDB.mdf</DependentUpon>
+    </Content>
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\half-slider.css" />
+    <Content Include="images\apusportscarnival.jpg" />
+    <Content Include="images\apusportscarnival2018.jpeg" />
+    <Content Include="images\background.jpg" />
+    <Content Include="images\chessevent.jpg" />
+    <Content Include="images\chessinhouse2018.jpeg" />
+    <Content Include="images\clubmeeting.jpg" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\mrcheaheason.jpeg" />
+    <Content Include="images\mrejun.jpeg" />
+    <Content Include="images\mrirvan.jpeg" />
+    <Content Include="images\mrlee.jpeg" />
+    <Content Include="images\mrsawlooibeng.jpeg" />
+    <Content Include="images\mrtang.jpeg" />
+    <Content Include="jquery\jquery.js" />
+    <Content Include="jquery\jquery.min.js" />
+    <Content Include="jquery\jquery.slim.js" />
+    <Content Include="jquery\jquery.slim.min.js" />
+    <Content Include="js\bootstrap.bundle.js" />
+    <Content Include="js\bootstrap.bundle.min.js" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\bootstrap.min.js" />
     <Content Include="MasterPage.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
@@ -76,16 +104,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="css\bootstrap.css" />
-    <Content Include="css\bootstrap.min.css" />
-    <Content Include="jquery\jquery.js" />
-    <Content Include="jquery\jquery.min.js" />
-    <Content Include="jquery\jquery.slim.js" />
-    <Content Include="jquery\jquery.slim.min.js" />
-    <Content Include="js\bootstrap.bundle.js" />
-    <Content Include="js\bootstrap.bundle.min.js" />
-    <Content Include="js\bootstrap.js" />
-    <Content Include="js\bootstrap.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
