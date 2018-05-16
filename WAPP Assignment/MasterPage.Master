@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>WAPP Demo</title>
+    <title></title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -48,9 +48,11 @@
         table {
             width: 90%;
         }
+
         td {
             padding: 5px;
         }
+
         .fixed-width-td {
             width: 30%;
         }

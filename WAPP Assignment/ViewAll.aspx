@@ -1,8 +1,8 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="ViewAll.aspx.cs" Inherits="WAPP_Assignment.ViewAll" %>
+﻿<%@ Page Title="View All" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="ViewAll.aspx.cs" Inherits="WAPP_Assignment.ViewAll" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-    <h1>View All</h1>
+    <h1 class="my-4">View All</h1>
     <table class="w-100" border="1" style="background-color: #7FFFD4">
         <tr style="font-weight: bold;">
             <td>Username</td>

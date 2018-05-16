@@ -1,8 +1,8 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="ForgotPassword.aspx.cs" Inherits="WAPP_Assignment.ForgotPassword" %>
+﻿<%@ Page Title="Forgot Password" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="ForgotPassword.aspx.cs" Inherits="WAPP_Assignment.ForgotPassword" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-    <h1>FORGOT PASSWORD</h1>
+    <h1 class="my-4">Forgot Password</h1>
     <table class="w-100">
         <tr>
             <td>Email:</td>
@@ -13,8 +13,8 @@
         <tr>
             <td>&nbsp;</td>
             <td>
-                <asp:Button ID="btnSubmit" runat="server" OnClick="btnSubmit_Click" Text="Submit" />
-                <asp:Button ID="btnReset" runat="server" Text="Reset" />
+                <asp:Button ID="btnSubmit" class="btn btn-primary" runat="server" OnClick="btnSubmit_Click" Text="Submit" />
+                <asp:Button ID="btnReset" class="btn btn-secondary" runat="server" Text="Reset" />
             </td>
         </tr>
         <tr>

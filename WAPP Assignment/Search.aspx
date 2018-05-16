@@ -1,8 +1,8 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="Search.aspx.cs" Inherits="WAPP_Assignment.Search" %>
+﻿<%@ Page Title="Search" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="Search.aspx.cs" Inherits="WAPP_Assignment.Search" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-    <h1>Search</h1>
+    <h1 class="my-4">Search</h1>
     <p>
         Name:
         <asp:TextBox ID="txtName" runat="server"></asp:TextBox>
