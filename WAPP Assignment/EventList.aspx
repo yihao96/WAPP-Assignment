@@ -14,11 +14,13 @@
             </a>
         </div>
         <div class="col-md-5">
-            <h3>Chess In-House Tournament 2018</h3>
+            <h3>
+                <asp:Label ID="lblEvent1" runat="server" Text="Chess In-House Tournament 2018"></asp:Label>
+            </h3>
             <p>Date: 18 July 2018</p>
             <p>Venue: Auditorium 2</p>
             <p>Participation Fees: RM 5</p>
-            <a class="btn btn-primary" href="#">Register</a>
+            <asp:Button ID="Register1" class="btn btn-primary" runat="server" Text="Register" OnClick="Register1_Click" />
         </div>
     </div>
     <!-- /.row -->
@@ -33,10 +35,12 @@
             </a>
         </div>
         <div class="col-md-5">
-            <h3>APU Sports Carnival (Chess) 2018 </h3>
+            <h3>
+                <asp:Label ID="lblEvent2" runat="server" Text="APU Sports Carnival (Chess) 2018"></asp:Label>
+            </h3>
             <p>Date: 9 August 2018</p>
             <p>Venue: B - 4 - 5</p>
             <p>Participation Fees: RM 8</p>
-            <a class="btn btn-primary" href="#">Register</a>
+            <asp:Button ID="Register2" class="btn btn-primary" runat="server" Text="Register" OnClick="Register2_Click" />
         </div>
 </asp:Content>

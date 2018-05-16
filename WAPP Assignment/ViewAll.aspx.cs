@@ -29,11 +29,12 @@ namespace WAPP_Assignment
             while (reader.Read())
             {
                 string username = reader.GetString(1);
-                string email = reader.GetString(3);
-                string gender = reader.GetString(4);
-                string country = reader.GetString(5);
-                string usertype = reader.GetString(6);
-                htmlStr += "<tr><td>" + username + "</td><td>" + email + "</td><td>" + gender + "</td><td>" + country + "</td><td>" + usertype + "</td></tr>";
+                string name = reader.GetString(3);
+                string email = reader.GetString(4);
+                string gender = reader.GetString(5);
+                string country = reader.GetString(6);
+                string usertype = reader.GetString(7);
+                htmlStr += "<tr><td>" + username + "</td><td>" + name + "</td><td>" + email + "</td><td>" + gender + "</td><td>" + country + "</td><td>" + usertype + "</td></tr>";
             }
             con.Close();
             return htmlStr;

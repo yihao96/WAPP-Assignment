@@ -6,6 +6,7 @@
     <table class="w-100" border="1" style="background-color: #7FFFD4">
         <tr style="font-weight: bold;">
             <td>Username</td>
+            <td>Name</td>
             <td>Email</td>
             <td>Gender</td>
             <td>Country</td>

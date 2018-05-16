@@ -77,6 +77,7 @@
     <Content Include="css\bootstrap.min.css" />
     <Content Include="css\half-slider.css" />
     <Content Include="EventList.aspx" />
+    <Content Include="EventRegistered.aspx" />
     <Content Include="ForgotPassword.aspx" />
     <Content Include="Home.aspx" />
     <Content Include="images\apusportscarnival.jpg" />
@@ -147,6 +148,13 @@
     </Compile>
     <Compile Include="EventList.aspx.designer.cs">
       <DependentUpon>EventList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EventRegistered.aspx.cs">
+      <DependentUpon>EventRegistered.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EventRegistered.aspx.designer.cs">
+      <DependentUpon>EventRegistered.aspx</DependentUpon>
     </Compile>
     <Compile Include="ForgotPassword.aspx.cs">
       <DependentUpon>ForgotPassword.aspx</DependentUpon>
