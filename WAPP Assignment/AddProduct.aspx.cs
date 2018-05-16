@@ -14,7 +14,10 @@ namespace WAPP_Assignment
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (Session["uType"] == null || !Session["uType"].Equals("Admin"))
+            {
+                Response.Redirect("Login.aspx");
+            }
         }
 
         protected void btnAdd_Click(object sender, EventArgs e)

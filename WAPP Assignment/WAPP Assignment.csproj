@@ -72,6 +72,7 @@
     <Content Include="App_Data\myDB_log.ldf">
       <DependentUpon>myDB.mdf</DependentUpon>
     </Content>
+    <Content Include="ClubMeeting.aspx" />
     <Content Include="css\bootstrap.css" />
     <Content Include="css\bootstrap.min.css" />
     <Content Include="css\half-slider.css" />
@@ -133,6 +134,13 @@
     </Compile>
     <Compile Include="AddProduct.aspx.designer.cs">
       <DependentUpon>AddProduct.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ClubMeeting.aspx.cs">
+      <DependentUpon>ClubMeeting.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ClubMeeting.aspx.designer.cs">
+      <DependentUpon>ClubMeeting.aspx</DependentUpon>
     </Compile>
     <Compile Include="EventList.aspx.cs">
       <DependentUpon>EventList.aspx</DependentUpon>

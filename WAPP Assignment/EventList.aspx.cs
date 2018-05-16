@@ -13,7 +13,11 @@ namespace WAPP_Assignment
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (Session["uType"] == null || !Session["uType"].Equals("Admin") || !Session["uType"].Equals("Member"))
+            {
+                Register1.Enabled = false;
+                Register2.Enabled = false;
+            }
         }
 
         protected void Register1_Click(object sender, EventArgs e)
