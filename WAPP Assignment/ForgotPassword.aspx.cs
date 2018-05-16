@@ -59,5 +59,10 @@ namespace WAPP_Assignment
                 lblMessage.Text = "Username and Password Sent Successfully";
             }
         }
+
+        protected void btnReset_Click(object sender, EventArgs e)
+        {
+            txtEmail.Text = string.Empty;
+        }
     }
 }

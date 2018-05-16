@@ -20,6 +20,7 @@ namespace WAPP_Assignment
         {
             txtUsername.Text = string.Empty;
             txtPassword.Text = string.Empty;
+            txtName.Text = string.Empty;
             txtEmail.Text = string.Empty;
             rdbGender.SelectedIndex = 0;
             ddlCountry.SelectedIndex = 0;
@@ -41,10 +42,11 @@ namespace WAPP_Assignment
                 }
                 else
                 {
-                    string query1 = "insert into Users (username, password, email, gender, country, usertype) values (@uname,@pword,@email,@gender,@country,@usertype) ";
+                    string query1 = "insert into Users (username, password, name, email, gender, country, usertype) values (@uname,@pword,@name,@email,@gender,@country,@usertype) ";
                     SqlCommand cmd1 = new SqlCommand(query1, con);
                     cmd1.Parameters.AddWithValue("@uname", txtUsername.Text);
                     cmd1.Parameters.AddWithValue("@pword", txtPassword.Text);
+                    cmd1.Parameters.AddWithValue("name", txtName.Text);
                     cmd1.Parameters.AddWithValue("@email", txtEmail.Text);
                     cmd1.Parameters.AddWithValue("@gender", rdbGender.SelectedItem.ToString());
                     cmd1.Parameters.AddWithValue("@country", ddlCountry.SelectedItem.ToString());

@@ -5,25 +5,31 @@
     <h1 class="my-4">Registration</h1>
     <table class="w-100">
         <tr>
-            <td>Username :</td>
+            <td class="fixed-width-td">Username :</td>
             <td>
                 <asp:TextBox ID="txtUsername" runat="server"></asp:TextBox>
             </td>
         </tr>
         <tr>
-            <td>Password :</td>
+            <td class="fixed-width-td">Password :</td>
             <td>
                 <asp:TextBox ID="txtPassword" runat="server" TextMode="Password"></asp:TextBox>
             </td>
         </tr>
         <tr>
-            <td>Email :</td>
+            <td class="fixed-width-td">Name :</td>
+            <td>
+                <asp:TextBox ID="txtName" runat="server"></asp:TextBox>
+            </td>
+        </tr>
+        <tr>
+            <td class="fixed-width-td">Email :</td>
             <td>
                 <asp:TextBox ID="txtEmail" runat="server" TextMode="Email" required="required"></asp:TextBox>
             </td>
         </tr>
         <tr>
-            <td>Gender :</td>
+            <td class="fixed-width-td">Gender :</td>
             <td>
                 <asp:RadioButtonList ID="rdbGender" runat="server">
                     <asp:ListItem>Male</asp:ListItem>
@@ -32,7 +38,7 @@
             </td>
         </tr>
         <tr>
-            <td>Country :</td>
+            <td class="fixed-width-td">Country :</td>
             <td>
                 <asp:DropDownList ID="ddlCountry" runat="server">
                     <asp:ListItem>Malaysia</asp:ListItem>
@@ -42,7 +48,7 @@
             </td>
         </tr>
         <tr>
-            <td>User Type :</td>
+            <td class="fixed-width-td">User Type :</td>
             <td>
                 <asp:DropDownList ID="ddlUserType" runat="server">
                     <asp:ListItem>Member</asp:ListItem>
@@ -50,7 +56,7 @@
             </td>
         </tr>
         <tr>
-            <td>&nbsp;</td>
+            <td class="fixed-width-td">&nbsp;</td>
             <td>
                 <asp:Button ID="btnRegister" class="btn btn-primary" runat="server" Text="Register" OnClick="btnRegister_Click" />
                 <asp:Button ID="btnReset" class="btn btn-secondary" runat="server" Text="Reset" OnClick="btnReset_Click" />

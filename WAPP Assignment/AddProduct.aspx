@@ -32,9 +32,7 @@
             </td>
         </tr>
         <tr>
-            <td class="fixed-width-td">
-                <asp:Label ID="lblMessage" runat="server"></asp:Label>
-            </td>
+            <td class="fixed-width-td">&nbsp</td>
             <td>
                 <asp:Button ID="btnAdd" class="btn btn-primary" runat="server" OnClick="btnAdd_Click" Text="Add" />
                 <asp:Button ID="btnReset" class="btn btn-secondary" runat="server" OnClick="btnReset_Click" Text="Reset" />

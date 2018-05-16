@@ -34,8 +34,7 @@ namespace WAPP_Assignment
                 cmd1.Parameters.AddWithValue("@pPrice", txtProdPrice.Text);
                 cmd1.Parameters.AddWithValue("@pImage", content);
                 cmd1.ExecuteNonQuery();
-                lblMessage.ForeColor = System.Drawing.Color.ForestGreen;
-                lblMessage.Text = "Product Added Sucessfully";
+                Response.Write("<script type=\"text/javascript\">alert('Registration Successful.');</script>");
                 con.Close();
             }
             catch (Exception ex)
