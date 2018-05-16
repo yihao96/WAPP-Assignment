@@ -40,7 +40,24 @@ namespace WAPP_Assignment
 
         protected void Register2_Click(object sender, EventArgs e)
         {
+            SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["ConnectionString"].ConnectionString);
+            try
+            {
+                con.Open();
 
+                string query = "insert into RegisterEvent (eventname, userName) values (@ename,@name) ";
+                SqlCommand cmd = new SqlCommand(query, con);
+                cmd.Parameters.AddWithValue("@ename", lblEvent2.Text); ;
+                cmd.Parameters.AddWithValue("@name", Session["uName"].ToString());
+                cmd.ExecuteNonQuery();
+                Response.Write("<script type=\"text/javascript\">alert('Registration Successful.');</script>");
+
+                con.Close();
+            }
+            catch (Exception ex)
+            {
+                Response.Write("Error: " + ex.ToString());
+            }
         }
     }
 }

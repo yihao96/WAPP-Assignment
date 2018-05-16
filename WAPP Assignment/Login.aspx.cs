@@ -26,8 +26,9 @@ namespace WAPP_Assignment
             if (count > 0)
             {
                 SqlCommand cmdType = new SqlCommand("select usertype from Users where username = '" + txtUsername.Text + "'", con);
+                SqlCommand cmdName = new SqlCommand("select name from Users where username = '" + txtUsername.Text + "'", con);
                 string uType = cmdType.ExecuteScalar().ToString().Replace(" ", "");
-                string uName = cmdType.ExecuteScalar().ToString();
+                string uName = cmdName.ExecuteScalar().ToString();
                 Session["uType"] = uType;
                 Session["uName"] = uName;
 

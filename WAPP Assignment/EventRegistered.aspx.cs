@@ -28,7 +28,7 @@ namespace WAPP_Assignment
             while (reader.Read())
             {
                 string eventname = reader.GetString(1);
-                string name = reader.GetString(3);
+                string name = reader.GetString(2);
                 htmlStr += "<tr><td>" + eventname + "</td><td>" + name + "</td></tr>";
             }
             con.Close();

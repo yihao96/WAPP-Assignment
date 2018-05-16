@@ -100,9 +100,12 @@
                         <li class="nav-item">
                             <a class="nav-link" href="EventList.aspx">Event</a>
                         </li>
+                        <%if (Session["uType"] == null || Session["uType"].Equals("Admin"))
+                            { %>
                         <li class="nav-item">
                             <a class="nav-link" href="EventRegistered.aspx">Event Participants</a>
                         </li>
+                        <%} %>
                         <li class="nav-item">
                             <a class="nav-link" href="ClubMeeting.aspx">Meeting</a>
                         </li>
