@@ -42,9 +42,10 @@ namespace WAPP_Assignment
                 id = Convert.ToInt16(dt.Rows[0][0]);
                 txtUsername.Text = dt.Rows[0][1].ToString();
                 txtPassword.Text = dt.Rows[0][2].ToString();
-                txtEmail.Text = dt.Rows[0][3].ToString();
-                rdbGender.Text = dt.Rows[0][4].ToString();
-                ddlCountry.Text = dt.Rows[0][5].ToString();
+                txtUName.Text = dt.Rows[0][3].ToString();
+                txtEmail.Text = dt.Rows[0][4].ToString();
+                rdbGender.Text = dt.Rows[0][5].ToString();
+                ddlCountry.Text = dt.Rows[0][6].ToString();
             }
         }
 

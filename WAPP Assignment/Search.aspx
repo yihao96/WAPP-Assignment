@@ -26,6 +26,12 @@
                 </td>
             </tr>
             <tr>
+                <td style="width: 401px; height: 36px">Name:</td>
+                <td style="height: 36px">
+                    <asp:TextBox ID="txtUName" runat="server"></asp:TextBox>
+                </td>
+            </tr>
+            <tr>
                 <td style="width: 401px; height: 36px">Email:</td>
                 <td style="height: 36px">
                     <asp:TextBox ID="txtEmail" runat="server"></asp:TextBox>
@@ -53,8 +59,8 @@
             <tr>
                 <td style="width: 401px">&nbsp;</td>
                 <td>
-                    <asp:Button ID="btnEdit" runat="server" OnClick="btnEdit_Click" Text="Edit" />
-                    <asp:Button ID="btnDelete" runat="server" OnClick="btnDelete_Click" Text="Delete" />
+                    <asp:Button ID="btnEdit" class="btn btn-primary" runat="server" OnClick="btnEdit_Click" Text="Edit" />
+                    <asp:Button ID="btnDelete" class="btn btn-primary" runat="server" OnClick="btnDelete_Click" Text="Delete" />
                 </td>
             </tr>
         </table>
