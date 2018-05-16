@@ -107,9 +107,6 @@
                         </li>
                         <%} %>
                         <li class="nav-item">
-                            <a class="nav-link" href="ClubMeeting.aspx">Meeting</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link" href="SearchProduct.aspx">Rent</a>
                         </li>
                         <%if (Session["uType"] == null || Session["uType"].Equals("Admin"))
